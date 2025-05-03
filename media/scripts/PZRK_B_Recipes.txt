@@ -1,0 +1,14 @@
+module Base 
+{
+    recipe Sharpen
+    {
+        KitchenKnife,
+        keep Stone/SharpedStone,
+
+        Result:KitchenKnife,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+}
