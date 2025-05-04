@@ -1,5 +1,6 @@
 # pzr_blades
 
-Rebalances blades so they can be re-sharpened for better durability.
+Rebalances small and long blades so they last longer.
 
-Adds a sharpening option to blades repair, that (very) slowly decays it's maximum durability after multiple repairs.
+Adds a sharpening option to blades repair, that slowly decays it's maximum durability after multiple repairs.
+

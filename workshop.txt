@@ -1,0 +1,6 @@
+version=1
+id=3476107498
+title=PZR Blades Rebalanced
+description=Rebalances small and long blades so their durability makes sense, and adds a sharpening option for repair.
+tags=Build 41;Balance
+visibility=public

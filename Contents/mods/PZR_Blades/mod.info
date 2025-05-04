@@ -1,5 +1,6 @@
 name=Byte Mitico - PZR Blades
 id=bytemitico.pzr_blades
-authors=Kallyous
-modversion=1.0.2
 description=Rebalances blades so they can be re-sharpened.
+authors=Kallyous
+modversion=1.0.3
+poster=poster.png
