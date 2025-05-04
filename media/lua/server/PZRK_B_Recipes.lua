@@ -12,7 +12,7 @@ function Recipe.OnCreate.SharpenBlade(items, result, player, selected_item)
 
     -- How much can be repaired by shapening at current maintenance skill.
     if maintenance_lvl < 3 then
-        condition_recovery = condition_recovery * ( (maintenance_lvl+1)/4 );
+        condition_recovery = condition_max * ( (maintenance_lvl+1)/4 );
     end
 
     -- Gather info about the current blade being repaired.
@@ -20,7 +20,7 @@ function Recipe.OnCreate.SharpenBlade(items, result, player, selected_item)
     for i = 0, items:size()-1 do
         local item = items:get(i);
         local item_type = item:getType();
-        if item_type ~= "Stone" then
+        if item_type ~= "Stone" and item_type ~= "SharpedStone" then
             local categories = item:getCategories();
             for j = 0, categories:size()-1 do
                 local category = categories:get(j);
