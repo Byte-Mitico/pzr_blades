@@ -34,7 +34,7 @@ function Recipe.OnCreate.SharpenBlade(items, result, player, selected_item)
     end
 
     -- Blades slowly degrades after multiple repairs.
-    local condition_limit = condition_max * (1 - 0.05 * (repair_count-1));
+    local condition_limit = condition_max - 0.33 * (repair_count-1);
 
     -- Claps at condition maximun.
     if condition_limit > condition_max then

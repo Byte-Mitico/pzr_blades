@@ -92,6 +92,19 @@ module Base
     }
 
 
+    recipe Sharpen Ice Pick
+    {
+        IcePick,
+        keep Stone/SharpedStone,
+
+        Result:IcePick,
+        Time:250.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
     recipe Sharpen Letter Opener
     {
         LetterOpener,
