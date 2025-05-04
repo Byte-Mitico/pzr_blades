@@ -1,6 +1,7 @@
 module Base 
 {
-    recipe Sharpen
+
+    recipe Sharpen Kitchen Knife
     {
         KitchenKnife,
         keep Stone/SharpedStone,
@@ -11,4 +12,136 @@ module Base
         OnCreate:Recipe.OnCreate.SharpenBlade,
         OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
     }
+
+
+    recipe Sharpen Cleaver
+    {
+        MeatCleaver,
+        keep Stone/SharpedStone,
+
+        Result:MeatCleaver,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Scythe
+    {
+        HandScythe,
+        keep Stone/SharpedStone,
+
+        Result:HandScythe,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Machete
+    {
+        Machete,
+        keep Stone/SharpedStone,
+
+        Result:Machete,
+        Time:1000.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Katana
+    {
+        Katana,
+        keep Stone/SharpedStone,
+
+        Result:Katana,
+        Time:1000.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Hunting Knife
+    {
+        HuntingKnife,
+        keep Stone/SharpedStone,
+
+        Result:HuntingKnife,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Flint Knife
+    {
+        FlintKnife,
+        keep Stone/SharpedStone,
+
+        Result:FlintKnife,
+        Time:250.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Letter Opener
+    {
+        LetterOpener,
+        keep Stone/SharpedStone,
+
+        Result:LetterOpener,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Scapel
+    {
+        Scalpel,
+        keep Stone/SharpedStone,
+
+        Result:Scalpel,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Butter Knife
+    {
+        ButterKnife,
+        keep Stone/SharpedStone,
+
+        Result:ButterKnife,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
+    recipe Sharpen Bread Knife
+    {
+        BreadKnife,
+        keep Stone/SharpedStone,
+
+        Result:BreadKnife,
+        Time:500.0,
+        Category:Survivalist,
+        OnCreate:Recipe.OnCreate.SharpenBlade,
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+    }
+
+
 }
